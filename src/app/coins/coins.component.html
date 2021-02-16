@@ -1,0 +1,12 @@
+<body>
+    <ng-container class="col-sm-3" *ngFor='let coin of coins; let i = index'>
+        <!-- זה קורא ל-INPUT -->
+        <app-money [coinss]='coin' [index]='i'></app-money>
+    </ng-container>
+</body>
+<footer>
+    <br>
+    המערכת אינה אחראית על אמינות המטבעות וחברות המנצלות אותן למטרות בלתי הוגנות
+    <br>
+    קניית המטבעות ואחזקתן ייעשו באחריות המשתמש בלבד וע"פ האמנות הבין לאומיות
+</footer>

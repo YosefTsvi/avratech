@@ -1,0 +1,13 @@
+<div *ngIf='outlook'>
+        <h1>Error</h1>
+    <p>
+        The requested document was not found
+    </p>
+</div>
+<div *ngIf='!outlook'>
+    <h3>החיבור שלך אינו פרטי</h3>
+    <p>
+        תוקפים עלולים לנסות לגנוב את המידע שלך
+        <br> (לדוגמה, סיסמאות, הודעות או פרטי כרטיסי אשראי).
+    </p>
+</div>

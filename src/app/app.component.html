@@ -1,0 +1,31 @@
+<header>
+  <h1> פרויקט של מטבעות וירטואליות להשקעה באדיבות המתכנת הדגול יעקב חתם</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/coins">Coins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" routerLink="/error" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <div class="aaa">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="beni">
+        <button> <a class="nav-link active" aria-current="page" href="#{{beni}}">Search</a></button>
+      </div>
+    </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>

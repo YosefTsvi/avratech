@@ -1,0 +1,41 @@
+/*main div div {
+    float: left;
+    border: red solid 0.5px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1px;
+    font-size: 0.6em;
+}
+main div {
+    float: left;
+    border: rgb(67, 12, 196) solid 0.5px;
+    border-radius: 3px;
+    padding: 1px;
+    margin: 3px;
+}
+main div:hover{
+    position: static;
+    background-color: aqua;
+    font-size: 3em;
+}*/
+/* main {
+    margin: 50px;
+} */
+body {
+    margin: 40px 10%;
+}
+Footer {
+    clear: both;
+    text-align: center;
+    margin: 20px;
+}
+header {
+    text-align: center;
+    margin: 20px;
+}
+header p {
+    color: rgb(179, 13, 13);
+}
+abb{
+    float: left;
+}

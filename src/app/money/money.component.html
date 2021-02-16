@@ -1,0 +1,22 @@
+<div class="Container">
+    <div id='{{coinss.id}}' class="col-sm-3 float-left">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title col">{{coinss.id}}</h5>
+                <p class="card-text">{{coinss.symbol}}</p>
+                <label class="switch">
+                    <input type="checkbox" (click)="investor(coinss.id)">
+                    <span class="slider round"></span>
+                </label>
+                <button (click)='moreInfo(coinss.id)' class="btn btn-primary">more info</button>
+                <div>{{error}}</div>
+                <div *ngIf='money'>
+                    {{money.id}}<br>
+                    {{money.symbol}}<br>
+                    {{money.market_data.current_price.usd}} $<br>
+                    {{money.market_data.current_price.eur}} €<br>
+                    {{money.market_data.current_price.ils}} ₪<br>
+                    <img src="{{money.image.large}}" alt="תמונה מוצגת"><br>
+                </div>
+            </div>
+        </div>
